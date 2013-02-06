@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "TabBarController.h"
+#import "TabTableViewController.h"
 
 @implementation AppDelegate
 
@@ -22,8 +23,10 @@
 		[[ViewController alloc] initWithTabBarSystemItem:UITabBarSystemItemHistory]
 	];
 
+	TabTableViewController *master = [[TabTableViewController alloc] initWithTabBarController:tabBarController];
+
 	UISplitViewController *splitViewController = [UISplitViewController new];
-	splitViewController.viewControllers = @[[UIViewController new], tabBarController];
+	splitViewController.viewControllers = @[master, tabBarController];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = splitViewController;

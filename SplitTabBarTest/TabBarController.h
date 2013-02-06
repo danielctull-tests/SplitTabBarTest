@@ -10,4 +10,5 @@
 
 @interface TabBarController : UIViewController
 @property (nonatomic, copy) NSArray *viewControllers;
+@property (weak, nonatomic) UIViewController *selectedViewController;
 @end

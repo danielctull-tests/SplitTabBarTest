@@ -20,6 +20,7 @@
 		24DEF06F16C2598F00B15911 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24DEF06D16C2598F00B15911 /* ViewController.xib */; };
 		24DEF07316C25C0A00B15911 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DEF07116C25C0A00B15911 /* TabBarController.m */; };
 		24DEF07416C25C0A00B15911 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24DEF07216C25C0A00B15911 /* TabBarController.xib */; };
+		24DEF07716C2616800B15911 /* TabTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DEF07616C2616800B15911 /* TabTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		24DEF07016C25C0A00B15911 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		24DEF07116C25C0A00B15911 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		24DEF07216C25C0A00B15911 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		24DEF07516C2616800B15911 /* TabTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabTableViewController.h; sourceTree = "<group>"; };
+		24DEF07616C2616800B15911 /* TabTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				24DEF07016C25C0A00B15911 /* TabBarController.h */,
 				24DEF07116C25C0A00B15911 /* TabBarController.m */,
 				24DEF07216C25C0A00B15911 /* TabBarController.xib */,
+				24DEF07516C2616800B15911 /* TabTableViewController.h */,
+				24DEF07616C2616800B15911 /* TabTableViewController.m */,
 			);
 			path = SplitTabBarTest;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				24DEF05C16C2590000B15911 /* AppDelegate.m in Sources */,
 				24DEF06E16C2598F00B15911 /* ViewController.m in Sources */,
 				24DEF07316C25C0A00B15911 /* TabBarController.m in Sources */,
+				24DEF07716C2616800B15911 /* TabTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
